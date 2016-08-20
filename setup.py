@@ -12,8 +12,7 @@ with open('HISTORY.rst') as history_file:
 requirements = [
     'Click>=6.0',
     'requests',
-    'flask',
-    # TODO: put package requirements here
+	'Jinja2',
 ]
 
 test_requirements = [
@@ -35,7 +34,7 @@ setup(
                  'microservice'},
     entry_points={
         'console_scripts': [
-            'microservice=microservice.cli:main'
+            'microservice=microservice:run'
         ]
     },
     include_package_data=True,
