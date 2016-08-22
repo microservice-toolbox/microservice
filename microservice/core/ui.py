@@ -7,8 +7,8 @@ def ui(part):
 
 
 def splash():
-    print("< MICROSERVICE GENERATOR >")
-    print("Author: Hervé Beraud")
+    success("< MICROSERVICE GENERATOR >")
+    success("Author: Hervé Beraud")
 
 def menu():
     choice = None
